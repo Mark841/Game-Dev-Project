@@ -2088,51 +2088,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Walking-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Walking-1-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Walking-2-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Walking-2-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Walking-3-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Walking-3-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Walking-4-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Walking-4-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Walking-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Walking-5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Dying-1-1.png",
         "kind": "image",
         "metadata": "",
@@ -2160,12 +2115,66 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "Enemy1-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Enemy1-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-2-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-3-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-4-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-4-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
         "file": "Dying-1-4.png",
         "kind": "image",
         "metadata": "",
         "name": "Dying-1-4.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -2174,7 +2183,7 @@
         "metadata": "",
         "name": "Dying-2-1.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -2183,7 +2192,7 @@
         "metadata": "",
         "name": "Dying-3-1.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -2192,7 +2201,7 @@
         "metadata": "",
         "name": "Dying-4-1.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -2201,7 +2210,7 @@
         "metadata": "",
         "name": "Dying-5-1.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -2210,7 +2219,7 @@
         "metadata": "",
         "name": "Dying-6-1.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -2219,16 +2228,7 @@
         "metadata": "",
         "name": "Dying-7-1.png",
         "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-1-0.png",
-        "smoothed": true,
-        "userAdded": true
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2810,12 +2810,12 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Enemy1-1-0.png",
+                      "image": "Walking-1-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2831,20 +2831,164 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 7,
-                            "y": 8
+                            "x": 6,
+                            "y": 7
                           },
                           {
-                            "x": 25,
-                            "y": 8
+                            "x": 26,
+                            "y": 7
                           },
                           {
-                            "x": 25,
-                            "y": 24
+                            "x": 26,
+                            "y": 25
                           },
                           {
-                            "x": 7,
-                            "y": 24
+                            "x": 6,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Walking-2-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 7
+                          },
+                          {
+                            "x": 26,
+                            "y": 7
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 6,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Walking-3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 7
+                          },
+                          {
+                            "x": 26,
+                            "y": 7
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 6,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Walking-4-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 7
+                          },
+                          {
+                            "x": 26,
+                            "y": 7
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 6,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Walking-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 7
+                          },
+                          {
+                            "x": 26,
+                            "y": 7
+                          },
+                          {
+                            "x": 26,
+                            "y": 25
+                          },
+                          {
+                            "x": 6,
+                            "y": 25
                           }
                         ]
                       ]
@@ -2860,7 +3004,127 @@
                 {
                   "looping": false,
                   "timeBetweenFrames": 0.08,
-                  "sprites": []
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dying-1-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dying-2-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dying-3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dying-4-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dying-5-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dying-6-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Dying-7-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
                 }
               ]
             },
@@ -5767,256 +6031,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "name": "SpeedBoots - Flames",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "SpeedBoots-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "SpeedBoots-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "SpeedBoots-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "SpeedBoots-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "SpeedBoots-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "SpeedBoots-6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "SpeedBoots-7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "SpeedBoots-8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "SpeedBoots-9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "SpeedBoots-10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "SpeedBoots-11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "SpeedBoots-12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "SpeedBoots-13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "SpeedBoots-14.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -7463,6 +7477,16 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CenterWindow"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -8543,9 +8567,9 @@
                   },
                   "parameters": [
                     "Player",
-                    "PowerUp",
-                    "=",
-                    "3"
+                    "MovementSpeedBuffs",
+                    "!=",
+                    "0"
                   ],
                   "subInstructions": []
                 },
@@ -8649,9 +8673,9 @@
                   },
                   "parameters": [
                     "Player",
-                    "PowerUp",
-                    "=",
-                    "4"
+                    "FireRateBuffs",
+                    "!=",
+                    "0"
                   ],
                   "subInstructions": []
                 },
@@ -8755,9 +8779,9 @@
                   },
                   "parameters": [
                     "Player",
-                    "PowerUp",
-                    "=",
-                    "5"
+                    "RotationSpeedBuffs",
+                    "!=",
+                    "0"
                   ],
                   "subInstructions": []
                 },
@@ -9334,7 +9358,7 @@
               "parameters": [
                 "PowerUpSpawnInterval",
                 "=",
-                "0"
+                "5"
               ],
               "subInstructions": []
             },
@@ -9407,6 +9431,16 @@
                 "GrenadeFuseLength",
                 "=",
                 "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CenterWindow"
+              },
+              "parameters": [
+                ""
               ],
               "subInstructions": []
             }
@@ -9694,18 +9728,6 @@
               "parameters": [
                 "ActiveEnemies",
                 "-",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "Kills",
-                "+",
                 "1"
               ],
               "subInstructions": []
@@ -10088,16 +10110,37 @@
             {
               "type": {
                 "inverted": false,
-                "value": "CollisionNP"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "Player",
-                "PowerUp1",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Animation"
+                  },
+                  "parameters": [
+                    "PowerUp1",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PowerUp1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ]
             }
           ],
           "actions": [
