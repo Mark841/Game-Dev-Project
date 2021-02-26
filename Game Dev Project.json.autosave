@@ -2302,6 +2302,10 @@
         {
           "name": "Health",
           "value": "3"
+        },
+        {
+          "name": "Paused",
+          "value": "0"
         }
       ],
       "instances": [
@@ -2404,393 +2408,137 @@
       ],
       "objects": [
         {
-          "name": "Player",
+          "bold": true,
+          "italic": false,
+          "name": "Debug",
+          "smoothed": true,
           "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "name": "PowerUp",
-              "value": "0"
-            },
-            {
-              "name": "MovementSpeed",
-              "value": "35"
-            },
-            {
-              "name": "FireRate",
-              "value": "0.4"
-            },
-            {
-              "name": "RotationSpeed",
-              "value": "180"
-            },
-            {
-              "name": "MovementSpeedBuffs",
-              "value": "0"
-            },
-            {
-              "name": "FireRateBuffs",
-              "value": "0"
-            },
-            {
-              "name": "RotationSpeedBuffs",
-              "value": "0"
-            }
-          ],
-          "behaviors": [
-            {
-              "name": "StayOnScreen",
-              "type": "StayOnScreen::StayOnScreen",
-              "MarginTop": 32,
-              "MarginBottom": 0,
-              "MarginLeft": 0,
-              "MarginRight": 32
-            }
-          ],
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "spirtesheet-player2-1.png",
-                      "points": [
-                        {
-                          "name": "Barrel",
-                          "x": 50,
-                          "y": 39
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 26,
-                        "y": 32
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 26,
-                        "y": 32
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Walking",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.2,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Idle-2.png",
-                      "points": [
-                        {
-                          "name": "Barrel",
-                          "x": 50,
-                          "y": 39
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 26,
-                        "y": 32
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 26,
-                        "y": 32
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9.7526,
-                            "y": 3.02083
-                          },
-                          {
-                            "x": 26.2109,
-                            "y": 3.02083
-                          },
-                          {
-                            "x": 26.2109,
-                            "y": 25.5208
-                          },
-                          {
-                            "x": 8.71094,
-                            "y": 25.1042
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Idle-3.png",
-                      "points": [
-                        {
-                          "name": "Barrel",
-                          "x": 50,
-                          "y": 39
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 26,
-                        "y": 32
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 26,
-                        "y": 32
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9.7526,
-                            "y": 3.02083
-                          },
-                          {
-                            "x": 26.2109,
-                            "y": 3.02083
-                          },
-                          {
-                            "x": 26.2109,
-                            "y": 25.5208
-                          },
-                          {
-                            "x": 8.71094,
-                            "y": 25.1042
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Idle-4.png",
-                      "points": [
-                        {
-                          "name": "Barrel",
-                          "x": 50,
-                          "y": 39
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 26,
-                        "y": 32
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 26,
-                        "y": 32
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9.7526,
-                            "y": 3.02083
-                          },
-                          {
-                            "x": 26.2109,
-                            "y": 3.02083
-                          },
-                          {
-                            "x": 26.2109,
-                            "y": 25.5208
-                          },
-                          {
-                            "x": 8.71094,
-                            "y": 25.1042
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Idle-5.png",
-                      "points": [
-                        {
-                          "name": "Barrel",
-                          "x": 50,
-                          "y": 39
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 26,
-                        "y": 32
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 26,
-                        "y": 32
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9.7526,
-                            "y": 3.02083
-                          },
-                          {
-                            "x": 26.2109,
-                            "y": 3.02083
-                          },
-                          {
-                            "x": 26.2109,
-                            "y": 25.5208
-                          },
-                          {
-                            "x": 8.71094,
-                            "y": 25.1042
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Idle-6.png",
-                      "points": [
-                        {
-                          "name": "Barrel",
-                          "x": 50,
-                          "y": 39
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 26,
-                        "y": 32
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 26,
-                        "y": 32
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9.7526,
-                            "y": 3.02083
-                          },
-                          {
-                            "x": 26.2109,
-                            "y": 3.02083
-                          },
-                          {
-                            "x": 26.2109,
-                            "y": 25.5208
-                          },
-                          {
-                            "x": 8.71094,
-                            "y": 25.1042
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Idle-7.png",
-                      "points": [
-                        {
-                          "name": "Barrel",
-                          "x": 50,
-                          "y": 39
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 26,
-                        "y": 32
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 26,
-                        "y": 32
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9.7526,
-                            "y": 3.02083
-                          },
-                          {
-                            "x": 26.2109,
-                            "y": 3.02083
-                          },
-                          {
-                            "x": 26.2109,
-                            "y": 25.5208
-                          },
-                          {
-                            "x": 8.71094,
-                            "y": 25.1042
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Idle-8.png",
-                      "points": [
-                        {
-                          "name": "Barrel",
-                          "x": 50,
-                          "y": 39
-                        }
-                      ],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 26,
-                        "y": 32
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 26,
-                        "y": 32
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9.7526,
-                            "y": 3.02083
-                          },
-                          {
-                            "x": 26.2109,
-                            "y": 3.02083
-                          },
-                          {
-                            "x": 26.2109,
-                            "y": 25.5208
-                          },
-                          {
-                            "x": 8.71094,
-                            "y": 25.1042
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "0 = Inactive, 1 = Active\nInvincible: 0\nMaxSpeed: 0\nMaxRotate: 0\nMaxFireRate: 0\nMaxAbility: 0",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 240,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "PauseScreen",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "         PAUSED\npress 'p' to resume",
+          "font": "",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Health",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Health: ",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Score",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Score: ",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 0,
+            "r": 21
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Kills",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Enemies Killed: ",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 255,
+            "r": 137
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Time",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Time Survived: ",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "PowerUp",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Current Power Up: None",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 0,
+            "r": 21
+          }
         },
         {
           "name": "Enemy1",
@@ -4201,6 +3949,415 @@
           "variables": [],
           "behaviors": [],
           "animations": []
+        },
+        {
+          "name": "Player",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "PowerUp",
+              "value": "0"
+            },
+            {
+              "name": "MovementSpeed",
+              "value": "35"
+            },
+            {
+              "name": "FireRate",
+              "value": "0.4"
+            },
+            {
+              "name": "RotationSpeed",
+              "value": "180"
+            },
+            {
+              "name": "MovementSpeedBuffs",
+              "value": "0"
+            },
+            {
+              "name": "FireRateBuffs",
+              "value": "0"
+            },
+            {
+              "name": "RotationSpeedBuffs",
+              "value": "0"
+            },
+            {
+              "name": "Invincibility",
+              "value": "0"
+            },
+            {
+              "name": "GodRotate",
+              "value": "0"
+            },
+            {
+              "name": "GodSpeed",
+              "value": "0"
+            },
+            {
+              "name": "GodFireRate",
+              "value": "0"
+            },
+            {
+              "name": "GodAbility",
+              "value": "0"
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "StayOnScreen",
+              "type": "StayOnScreen::StayOnScreen",
+              "MarginTop": 32,
+              "MarginBottom": 0,
+              "MarginLeft": 0,
+              "MarginRight": 32
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spirtesheet-player2-1.png",
+                      "points": [
+                        {
+                          "name": "Barrel",
+                          "x": 50,
+                          "y": 39
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 26,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 26,
+                        "y": 32
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walking",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Idle-2.png",
+                      "points": [
+                        {
+                          "name": "Barrel",
+                          "x": 50,
+                          "y": 39
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 26,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 26,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.7526,
+                            "y": 3.02083
+                          },
+                          {
+                            "x": 26.2109,
+                            "y": 3.02083
+                          },
+                          {
+                            "x": 26.2109,
+                            "y": 25.5208
+                          },
+                          {
+                            "x": 8.71094,
+                            "y": 25.1042
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Idle-3.png",
+                      "points": [
+                        {
+                          "name": "Barrel",
+                          "x": 50,
+                          "y": 39
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 26,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 26,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.7526,
+                            "y": 3.02083
+                          },
+                          {
+                            "x": 26.2109,
+                            "y": 3.02083
+                          },
+                          {
+                            "x": 26.2109,
+                            "y": 25.5208
+                          },
+                          {
+                            "x": 8.71094,
+                            "y": 25.1042
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Idle-4.png",
+                      "points": [
+                        {
+                          "name": "Barrel",
+                          "x": 50,
+                          "y": 39
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 26,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 26,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.7526,
+                            "y": 3.02083
+                          },
+                          {
+                            "x": 26.2109,
+                            "y": 3.02083
+                          },
+                          {
+                            "x": 26.2109,
+                            "y": 25.5208
+                          },
+                          {
+                            "x": 8.71094,
+                            "y": 25.1042
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Idle-5.png",
+                      "points": [
+                        {
+                          "name": "Barrel",
+                          "x": 50,
+                          "y": 39
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 26,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 26,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.7526,
+                            "y": 3.02083
+                          },
+                          {
+                            "x": 26.2109,
+                            "y": 3.02083
+                          },
+                          {
+                            "x": 26.2109,
+                            "y": 25.5208
+                          },
+                          {
+                            "x": 8.71094,
+                            "y": 25.1042
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Idle-6.png",
+                      "points": [
+                        {
+                          "name": "Barrel",
+                          "x": 50,
+                          "y": 39
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 26,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 26,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.7526,
+                            "y": 3.02083
+                          },
+                          {
+                            "x": 26.2109,
+                            "y": 3.02083
+                          },
+                          {
+                            "x": 26.2109,
+                            "y": 25.5208
+                          },
+                          {
+                            "x": 8.71094,
+                            "y": 25.1042
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Idle-7.png",
+                      "points": [
+                        {
+                          "name": "Barrel",
+                          "x": 50,
+                          "y": 39
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 26,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 26,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.7526,
+                            "y": 3.02083
+                          },
+                          {
+                            "x": 26.2109,
+                            "y": 3.02083
+                          },
+                          {
+                            "x": 26.2109,
+                            "y": 25.5208
+                          },
+                          {
+                            "x": 8.71094,
+                            "y": 25.1042
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Idle-8.png",
+                      "points": [
+                        {
+                          "name": "Barrel",
+                          "x": 50,
+                          "y": 39
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 26,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 26,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9.7526,
+                            "y": 3.02083
+                          },
+                          {
+                            "x": 26.2109,
+                            "y": 3.02083
+                          },
+                          {
+                            "x": 26.2109,
+                            "y": 25.5208
+                          },
+                          {
+                            "x": 8.71094,
+                            "y": 25.1042
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "PowerUp1",
@@ -6877,101 +7034,6 @@
               ]
             }
           ]
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Health",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Health: ",
-          "font": "",
-          "characterSize": 30,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 255
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Score",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Score: ",
-          "font": "",
-          "characterSize": 30,
-          "color": {
-            "b": 255,
-            "g": 0,
-            "r": 21
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Kills",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Enemies Killed: ",
-          "font": "",
-          "characterSize": 30,
-          "color": {
-            "b": 0,
-            "g": 255,
-            "r": 137
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "Time",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Time Survived: ",
-          "font": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 255
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "PowerUp",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Current Power Up: None",
-          "font": "",
-          "characterSize": 20,
-          "color": {
-            "b": 255,
-            "g": 0,
-            "r": 21
-          }
         }
       ],
       "events": [
@@ -6998,31 +7060,52 @@
             {
               "type": {
                 "inverted": false,
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "BuiltinCommonInstructions::And"
               },
               "parameters": [],
               "subInstructions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "KeyPressed"
+                    "value": "VarScene"
                   },
                   "parameters": [
-                    "",
-                    "w"
+                    "Paused",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "KeyPressed"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "Up"
-                  ],
-                  "subInstructions": []
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "w"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Up"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
                 }
               ]
             }
@@ -7064,31 +7147,52 @@
             {
               "type": {
                 "inverted": false,
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "BuiltinCommonInstructions::And"
               },
               "parameters": [],
               "subInstructions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "KeyPressed"
+                    "value": "VarScene"
                   },
                   "parameters": [
-                    "",
-                    "a"
+                    "Paused",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "KeyPressed"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "a"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
                 }
               ]
             }
@@ -7130,31 +7234,52 @@
             {
               "type": {
                 "inverted": false,
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "BuiltinCommonInstructions::And"
               },
               "parameters": [],
               "subInstructions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "KeyPressed"
+                    "value": "VarScene"
                   },
                   "parameters": [
-                    "",
-                    "s"
+                    "Paused",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "KeyPressed"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "Down"
-                  ],
-                  "subInstructions": []
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "s"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Down"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
                 }
               ]
             }
@@ -7196,31 +7321,52 @@
             {
               "type": {
                 "inverted": false,
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "BuiltinCommonInstructions::And"
               },
               "parameters": [],
               "subInstructions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "KeyPressed"
+                    "value": "VarScene"
                   },
                   "parameters": [
-                    "",
-                    "d"
+                    "Paused",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "KeyPressed"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "Right"
-                  ],
-                  "subInstructions": []
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "d"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Right"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
                 }
               ]
             }
@@ -7353,6 +7499,18 @@
                     "Right"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Paused",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ]
             }
@@ -7396,37 +7554,58 @@
             {
               "type": {
                 "inverted": false,
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "BuiltinCommonInstructions::And"
               },
               "parameters": [],
               "subInstructions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SourisY"
+                    "value": "VarScene"
                   },
                   "parameters": [
-                    "",
-                    "!=",
-                    "Player.Y()",
-                    "",
-                    ""
+                    "Paused",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "SourisX"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "",
-                    "!=",
-                    "Player.X()",
-                    "",
-                    ""
-                  ],
-                  "subInstructions": []
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisY"
+                      },
+                      "parameters": [
+                        "",
+                        "!=",
+                        "Player.Y()",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisX"
+                      },
+                      "parameters": [
+                        "",
+                        "!=",
+                        "Player.X()",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
                 }
               ]
             }
@@ -7474,16 +7653,6 @@
               "parameters": [
                 "",
                 "yes",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "CenterWindow"
-              },
-              "parameters": [
                 ""
               ],
               "subInstructions": []
@@ -7570,6 +7739,18 @@
                     "",
                     "Player.Variable(FireRate)",
                     "\"Shot\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Paused",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -7663,6 +7844,18 @@
                   "parameters": [
                     "",
                     "Right"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Paused",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -8370,10 +8563,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ResetTimer"
+                "value": "ResetObjectTimer"
               },
               "parameters": [
-                "",
+                "PowerUp1",
                 "\"GrenadeLife\""
               ],
               "subInstructions": []
@@ -8396,12 +8589,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "Timer"
+                    "value": "ObjectTimer"
                   },
                   "parameters": [
-                    "",
-                    "Variable(GrenadeFuseLength)",
-                    "\"GrenadeLife\""
+                    "PowerUp1",
+                    "\"GrenadeLife\"",
+                    "Variable(GrenadeFuseLength)"
                   ],
                   "subInstructions": []
                 },
@@ -8639,17 +8832,6 @@
                 "\"Current Power Up: None\""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"PowerUpSpawn\""
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
@@ -8743,17 +8925,6 @@
                 "PowerUp",
                 "=",
                 "\"Current Power Up: None\""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"PowerUpSpawn\""
               ],
               "subInstructions": []
             }
@@ -8851,17 +9022,6 @@
                 "\"Current Power Up: None\""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"PowerUpSpawn\""
-              ],
-              "subInstructions": []
             }
           ],
           "events": []
@@ -8914,6 +9074,18 @@
                     "ActiveEnemies",
                     "<",
                     "Variable(MaxEnemies)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Paused",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -9097,6 +9269,18 @@
                     "0"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Paused",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ]
             }
@@ -9204,6 +9388,251 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "p"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Paused",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"Paused\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Paused",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Time\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Pushback\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"PowerUpSpawn\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Paused\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "PauseScreen",
+                "230",
+                "250",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "p"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Paused",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"Paused\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Paused",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Time"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Pushback\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"PowerUpSpawn\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Paused\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "PauseScreen",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -9263,6 +9692,83 @@
               "parameters": [
                 "",
                 "\"PowerUpSpawn\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Paused\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"InvincibleToggle\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"PushToggle\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"FireRateToggle\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"RotateToggle\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"SpeedToggle\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Debug\""
               ],
               "subInstructions": []
             },
@@ -9437,10 +9943,45 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Debug",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Paused",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "CenterWindow"
               },
               "parameters": [
                 ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAdaptGameResolutionAtRuntime"
+              },
+              "parameters": [
+                "",
+                "no"
               ],
               "subInstructions": []
             }
@@ -9582,8 +10123,207 @@
                 "\"Time Survived: \" + ToString(floor(TimerElapsedTime(\"Time\")))"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Debug",
+                "=",
+                "\"0 = Inactive, 1 = Active\nInvincible: \" + ToString(Player.Variable(Invincibility)) + \"\nMaxSpeed: \" + ToString(Player.Variable(GodSpeed)) + \"\nMaxRotate: \" + ToString(Player.Variable(GodRotate)) + \"\nMaxFireRate: \" + ToString(Player.Variable(GodFireRate)) + \"\nMaxAbility: \" + ToString(Player.Variable(GodAbility))"
+              ],
+              "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "m"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Debug",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"Debug\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Debug",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Debug",
+                "10",
+                "150",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Debug\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "m"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Debug",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"Debug\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Debug",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Debug",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Debug\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         },
         {
@@ -10184,6 +10924,17 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"PowerUpSpawn\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Delete"
               },
               "parameters": [
@@ -10363,6 +11114,17 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"PowerUpSpawn\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Delete"
               },
               "parameters": [
@@ -10466,6 +11228,17 @@
               "parameters": [
                 "",
                 "\"FireRateDuration\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"PowerUpSpawn\""
               ],
               "subInstructions": []
             },
@@ -10581,6 +11354,17 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"PowerUpSpawn\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "Delete"
               },
               "parameters": [
@@ -10615,13 +11399,47 @@
             {
               "type": {
                 "inverted": false,
-                "value": "KeyPressed"
+                "value": "BuiltinCommonInstructions::And"
               },
-              "parameters": [
-                "",
-                "i"
-              ],
-              "subInstructions": []
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "i"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Invincibility",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"InvincibleToggle\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
             }
           ],
           "actions": [
@@ -10636,6 +11454,30 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "Invincibility",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"InvincibleToggle\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -10648,13 +11490,138 @@
             {
               "type": {
                 "inverted": false,
-                "value": "KeyPressed"
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "i"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Invincibility",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"InvincibleToggle\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "DamageDealtToPlayer",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "Invincibility",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
               },
               "parameters": [
                 "",
-                "u"
+                "\"InvincibleToggle\""
               ],
               "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "u"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "GodAbility",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"PushToggle\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
             }
           ],
           "actions": [
@@ -10669,6 +11636,30 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "GodAbility",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"PushToggle\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -10681,13 +11672,138 @@
             {
               "type": {
                 "inverted": false,
-                "value": "KeyPressed"
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "u"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "GodAbility",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"PushToggle\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "PushCooldown",
+                "=",
+                "3"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "GodAbility",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
               },
               "parameters": [
                 "",
-                "j"
+                "\"PushToggle\""
               ],
               "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "j"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "GodFireRate",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"FireRateToggle\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
             }
           ],
           "actions": [
@@ -10703,6 +11819,30 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "GodFireRate",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"FireRateToggle\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -10715,13 +11855,139 @@
             {
               "type": {
                 "inverted": false,
-                "value": "KeyPressed"
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "j"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "GodFireRate",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"FireRateToggle\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "FireRate",
+                "=",
+                "0.4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "GodFireRate",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
               },
               "parameters": [
                 "",
-                "o"
+                "\"FireRateToggle\""
               ],
               "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "o"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "GodRotate",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"RotateToggle\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
             }
           ],
           "actions": [
@@ -10737,6 +12003,306 @@
                 "0"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "GodRotate",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"RotateToggle\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "o"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "GodRotate",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"RotateToggle\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "RotationSpeed",
+                "=",
+                "180"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "GodRotate",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"RotateToggle\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "k"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "GodSpeed",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"SpeedToggle\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "MovementSpeed",
+                "=",
+                "Variable(MaxMovementSpeed)"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "GodSpeed",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"SpeedToggle\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "k"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "GodSpeed",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "\"SpeedToggle\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "MovementSpeed",
+                "=",
+                "35"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Player",
+                "GodSpeed",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"SpeedToggle\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -10753,7 +12319,7 @@
               },
               "parameters": [
                 "",
-                "k"
+                "g"
               ],
               "subInstructions": []
             }
@@ -10766,9 +12332,21 @@
               },
               "parameters": [
                 "Player",
-                "MovementSpeed",
+                "PowerUp",
                 "=",
-                "Variable(MaxMovementSpeed)"
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "PowerUp",
+                "=",
+                "\"Current Power Up: Grenade\""
               ],
               "subInstructions": []
             }
