@@ -7,7 +7,7 @@
     "revision": 0
   },
   "properties": {
-    "adaptGameResolutionAtRuntime": true,
+    "adaptGameResolutionAtRuntime": false,
     "folderProject": false,
     "orientation": "landscape",
     "packageName": "com.example.gamename",
@@ -1404,15 +1404,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewObject-1-1.png",
         "kind": "image",
         "metadata": "",
@@ -2508,6 +2499,186 @@
         "name": "BackToMenuKeys-1-0.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Show-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Show-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hide-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hide-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CooldownBarBackground-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CooldownBarBackground-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CooldownBar-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CooldownBar-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CooldownBar-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CooldownBar-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CooldownBarBackground-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CooldownBarBackground-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Point-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Point-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Point-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Point-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Point-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Point-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Point-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Point-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Point-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Point-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Point-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Point-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Point-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Point-7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Point-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Point-8.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2586,8 +2757,8 @@
           "name": "Controls",
           "persistentUuid": "4794c87e-51a5-403c-8903-bc69f6c583a9",
           "width": 0,
-          "x": 71,
-          "y": 145,
+          "x": 15,
+          "y": 138,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2602,8 +2773,8 @@
           "name": "MoveKeys",
           "persistentUuid": "f373a7d3-6cfe-43ce-8f88-6453a4b866cd",
           "width": 0,
-          "x": 420,
-          "y": 200,
+          "x": 364,
+          "y": 193,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2634,8 +2805,8 @@
           "name": "ShootKeys",
           "persistentUuid": "b02aed8f-231e-4d91-9df0-4c2c4670d565",
           "width": 0,
-          "x": 412,
-          "y": 235,
+          "x": 356,
+          "y": 228,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -2650,8 +2821,8 @@
           "name": "KnockbackAbilityKeys",
           "persistentUuid": "f13ea8a5-76ee-4d94-8489-081d25f90195",
           "width": 0,
-          "x": 412,
-          "y": 280,
+          "x": 356,
+          "y": 273,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -2666,8 +2837,8 @@
           "name": "GrenadeKeys",
           "persistentUuid": "d37450fe-b8d3-4d5f-bc34-a7bb2191b900",
           "width": 0,
-          "x": 420,
-          "y": 330,
+          "x": 364,
+          "y": 323,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -2682,8 +2853,8 @@
           "name": "PauseKeys",
           "persistentUuid": "cc792e79-52d2-404e-90e4-798924222ca3",
           "width": 0,
-          "x": 420,
-          "y": 375,
+          "x": 364,
+          "y": 368,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -2698,9 +2869,57 @@
           "name": "BackToMenuKeys",
           "persistentUuid": "1104ac1f-2b74-41bf-a77c-2ac7a83ef4ff",
           "width": 0,
-          "x": 420,
-          "y": 420,
+          "x": 364,
+          "y": 413,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GodPopUp",
+          "persistentUuid": "9eb5c174-ff31-4b13-98fd-65d159a76b4d",
+          "width": 0,
+          "x": 454,
+          "y": 147,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GodControls",
+          "persistentUuid": "853df205-c4f1-430d-90d7-cacd304e7b03",
+          "width": 0,
+          "x": 486,
+          "y": 237,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Button",
+          "persistentUuid": "060823d0-ce55-41fd-b86c-ae7a2b82d5ad",
+          "width": 0,
+          "x": 560,
+          "y": 200,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3152,6 +3371,132 @@
             "g": 0,
             "r": 255
           }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "GodControls",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "m = open/close god overlay\n\ni = immortal\nu = unlimited knockback\nj = max fire rate\no = max rotation speed\nk = max movement speed\ng = get grenade",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
+        },
+        {
+          "name": "GodPopUp",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Button",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Show",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Show-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hide",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Hide-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -3256,6 +3601,234 @@
               },
               "parameters": [
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Button",
+                    "",
+                    "yes",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Showing",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "0.5",
+                    "\"Clicked\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "GodControls",
+                "=",
+                "255"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Showing",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Button",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Clicked\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Button",
+                    "",
+                    "yes",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "Showing",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "0.5",
+                    "\"Clicked\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "GodControls",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Showing",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Button",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Clicked\""
               ],
               "subInstructions": []
             }
@@ -3406,6 +3979,30 @@
                 "BackToMenuKeys",
                 "=",
                 "0.5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "Button",
+                "=",
+                "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::Opacity"
+              },
+              "parameters": [
+                "GodControls",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -3634,7 +4231,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.976
+        "zoomFactor": 1.336
       },
       "objectsGroups": [
         {
@@ -3777,6 +4374,54 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "CooldownBarBackground",
+          "persistentUuid": "ff473444-f137-4e92-b6dd-fcb905ac3564",
+          "width": 0,
+          "x": 190,
+          "y": 545,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "CooldownBar",
+          "persistentUuid": "7ea7135f-b86b-49b2-b962-09d32b2c6352",
+          "width": 0,
+          "x": 191,
+          "y": 546,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "AbilityCooldown",
+          "persistentUuid": "56cc8e95-1b12-4a25-a8fc-6ab8d5fd9b71",
+          "width": 0,
+          "x": 12,
+          "y": 540,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3911,6 +4556,25 @@
             "b": 255,
             "g": 0,
             "r": 21
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "AbilityCooldown",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Ability Cooldown:",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 33,
+            "g": 211,
+            "r": 126
           }
         },
         {
@@ -5321,7 +5985,308 @@
           "updateIfNotVisible": false,
           "variables": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "Point",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Point-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 14
+                          },
+                          {
+                            "x": 1,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Point-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 13
+                          },
+                          {
+                            "x": 1,
+                            "y": 13
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Point-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 0
+                          },
+                          {
+                            "x": 15,
+                            "y": 13
+                          },
+                          {
+                            "x": 1,
+                            "y": 13
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Point-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 13
+                          },
+                          {
+                            "x": 1,
+                            "y": 13
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Point-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 14
+                          },
+                          {
+                            "x": 1,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Point-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 15,
+                            "y": 3
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Point-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 4
+                          },
+                          {
+                            "x": 15,
+                            "y": 4
+                          },
+                          {
+                            "x": 15,
+                            "y": 16
+                          },
+                          {
+                            "x": 1,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Point-8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 15,
+                            "y": 3
+                          },
+                          {
+                            "x": 15,
+                            "y": 15
+                          },
+                          {
+                            "x": 1,
+                            "y": 15
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "Player",
@@ -8407,6 +9372,84 @@
               ]
             }
           ]
+        },
+        {
+          "name": "CooldownBar",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Ability Cooldown Bar",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "CooldownBar-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CooldownBarBackground",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Cooldown Bar Background",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "CooldownBarBackground-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -8488,6 +9531,18 @@
               "type": {
                 "inverted": false,
                 "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimationSpeedScale"
               },
               "parameters": [
                 "Player",
@@ -8586,6 +9641,18 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ChangeAnimationSpeedScale"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "AddForceXY"
               },
               "parameters": [
@@ -8673,6 +9740,18 @@
             {
               "type": {
                 "inverted": false,
+                "value": "ChangeAnimationSpeedScale"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
                 "value": "AddForceXY"
               },
               "parameters": [
@@ -8749,6 +9828,18 @@
               "type": {
                 "inverted": false,
                 "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimationSpeedScale"
               },
               "parameters": [
                 "Player",
@@ -8898,6 +9989,18 @@
                 "Player",
                 "=",
                 "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimationSpeedScale"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "1"
               ],
               "subInstructions": []
             }
@@ -9288,6 +10391,85 @@
               "subInstructions": []
             }
           ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Score",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "Variable(ScoreSpawnInterval)",
+                    "\"ScoreSpawn\""
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Point",
+                "RandomInRange(100,700)",
+                "RandomInRange(100,500)",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"ScoreSpawn\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         },
         {
@@ -10150,6 +11332,19 @@
                     "\"MovementSpeedDuration\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "GodSpeed",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ]
             }
@@ -10245,6 +11440,19 @@
                     "\"FireRateDuration\""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "GodFireRate",
+                    "=",
+                    "0"
+                  ],
+                  "subInstructions": []
                 }
               ]
             }
@@ -10338,6 +11546,19 @@
                     "",
                     "10",
                     "\"RotateSpeedDuration\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "GodRotate",
+                    "=",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -11075,6 +12296,17 @@
               },
               "parameters": [
                 "",
+                "\"ScoreSpawn\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
                 "\"Paused\""
               ],
               "subInstructions": []
@@ -11247,6 +12479,18 @@
                 "value": "ModVarScene"
               },
               "parameters": [
+                "ScoreSpawnInterval",
+                "=",
+                "10"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
                 "MaxPowerUpsOnScreen",
                 "=",
                 "1"
@@ -11285,7 +12529,7 @@
               "parameters": [
                 "MaxMovementSpeed",
                 "=",
-                "300"
+                "16 * Player.Variable(MovementSpeed)"
               ],
               "subInstructions": []
             },
@@ -11695,8 +12939,34 @@
           "disabled": false,
           "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "Variable(PushCooldown)",
+                "\"Pushback\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeScaleWidth"
+              },
+              "parameters": [
+                "CooldownBar",
+                "=",
+                "(1 * TimerElapsedTime(\"Pushback\")) / Variable(PushCooldown)"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         },
         {
@@ -11721,7 +12991,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Quit"
+                "value": "PopScene"
               },
               "parameters": [
                 ""
@@ -12752,6 +14022,53 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Point",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Point",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -12761,7 +14078,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Developer Tools",
+          "comment": "Developer Tools / God Powers",
           "comment2": ""
         },
         {
